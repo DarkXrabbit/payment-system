@@ -4,7 +4,7 @@ A simple payment system with PHP.
 [SakuraHost Payment System](https://pay.mcsh.co)
 # Copyright
 SakuraHost - Payment System
-Copyright (c) 2013 - 2017 James Huang <james@mcsh.co>.
+Copyright (c) 2013 - 2017 James Huang <james(at)mcsh.co>.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
