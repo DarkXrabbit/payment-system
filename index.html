@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>櫻域自動繳費系統</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+				<header id="header">
+					<h1 id="logo"><img src="https://i.imgur.com/U72p4mi.png"></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="https://memory-sakura.net" target="_blank" class="button special">MC緋櫻欞域</a></li>
+							<li><a href="https://shop.sakura-host.net" target="_blank" class="button special">櫻域虛擬主機</a></li>
+						</ul>
+					</nav>
+				</header>
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>憶之緋櫻欞域自動繳費系統</h2>
+							<span class="image fit"><img src="images/logob.png" alt=""></span>
+							<p>請詳實填寫表單內容，以免影響您的權益</p>
+							<p>本網站提供緋櫻欞域贊助收費 / 伺服器代管繳費的信用卡及超商代碼繳費</p>
+						</header>
+						<center>
+							<form action="redirect.php" method="POST">
+								<div class="6u 12u$(xsmall)">
+									<input name="Name" type="text" placeholder="怎麼稱呼您? (Your Name)" Required /><br />
+									<input name="Amt" type="text" placeholder="金額 (Amount of money)" Required /><br />
+									<input name="Email" type="email" placeholder="電子郵件 (Email)" Required /><br />
+									
+									<select name="ItemDesc" id="ItemDesc">
+													<option value="Minecraft主機代管">Minecraft主機代管</option>
+													<option value="BT離線下載">BT離線下載</option>
+													<option value="抗DDoS型網頁代管">抗DDoS型網頁代管</option>
+													<option value="抗DDoS型Minecraft主機代管">抗DDoS型Minecraft主機代管</option>
+													<option value="私有雲端硬碟">私有雲端硬碟</option>
+									</select><br />
+									
+									<textarea name="OrderComment" id="OrderComment" placeholder="訂單備註 (Order Comment)" rows="4"></textarea><br /><br />
+								<h3>繳費方式 (Payment Method)</h3>
+								</div>
+
+								<select name="Method" id="Method">
+													<option value="CVS">超商代碼繳費</option>
+													<option value="CREDIT">信用卡繳費</option>
+													<option value="UNIONPAY">銀聯卡繳費</option>
+													<option value="WEBATM">網路ATM繳費</option>
+													<option value="VACC">ATM轉帳繳費</option>
+								</select><br />
+								
+								<input type="submit" /> 
+							</form>
+						</center>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Memory of Sakura ltd. All rights reserved.</li><li>櫻域虛擬主機為Memory of Sakura ltd.旗下營運部門</a></li>
+					</ul>
+				</footer>
+
+		</div>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
